@@ -50,47 +50,10 @@
 				"type": "Json",
 				"typeProperties": {
 					"location": {
-						"type": "AzureBlobFSLocation",
-						"fileSystem": "wwi-02"
+						"type": "AzureBlobFSLocation"
 					}
 				},
-				"schema": {
-					"type": "object",
-					"properties": {
-						"userId": {
-							"type": "integer"
-						},
-						"cartId": {
-							"type": "string"
-						},
-						"preferredProducts": {
-							"type": "array",
-							"items": {
-								"type": "integer"
-							}
-						},
-						"productReviews": {
-							"type": "array",
-							"items": {
-								"type": "object",
-								"properties": {
-									"productId": {
-										"type": "integer"
-									},
-									"reviewText": {
-										"type": "string"
-									},
-									"reviewDate": {
-										"type": "string"
-									}
-								}
-							}
-						},
-						"UserIdBucket": {
-							"type": "string"
-						}
-					}
-				}
+				"schema": {}
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/linkedServices/AzureDataLakeStorage1')]"
