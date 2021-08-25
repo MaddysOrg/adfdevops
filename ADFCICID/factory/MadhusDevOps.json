@@ -1,0 +1,9 @@
+{
+	"name": "MadhusDevOps",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8adbf9e4-3ba2-4c8c-8818-cfd08c0a7b0c",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
