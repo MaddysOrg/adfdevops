@@ -4,13 +4,14 @@
 		"annotations": [],
 		"type": "AzureSqlMI",
 		"typeProperties": {
-			"connectionString": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=madhusmi.public.9c04f7d8f7e4.database.windows.net,3342;Initial Catalog=TPEPDW;User ID=msft_csa",
+			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
 					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "msftcsami"
+				"secretName": "ADFMIADMIN"
 			}
 		}
 	}
