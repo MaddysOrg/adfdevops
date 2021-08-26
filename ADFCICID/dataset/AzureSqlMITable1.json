@@ -1,0 +1,25 @@
+{
+	"name": "AzureSqlMITable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlMI1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlMITable",
+		"schema": [
+			{
+				"name": "Hack_Number",
+				"type": "varchar"
+			},
+			{
+				"name": "Lic_Stat",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimDriver"
+		}
+	}
+}
