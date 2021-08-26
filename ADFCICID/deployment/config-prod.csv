@@ -1,0 +1,2 @@
+type,name,path,value
+linkedService,AzureKeyVault1,typeProperties.baseUgit rl,"https://BulkyVault.vault.azure.net/"
